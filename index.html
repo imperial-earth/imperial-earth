@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Imperial Earth</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            background: #1b1b1b;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            padding: 40px;
+        }
+        .logo {
+            width: 140px;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 12px 25px;
+            background: #5865F2;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+        .btn:hover {
+            opacity: 0.85;
+        }
+    </style>
 </head>
 <body>
 
 <header>
+    <img src="logo.png" alt="Imperial Earth Logo" class="logo">
     <h1>IMPERIAL EARTH</h1>
     <p>Minecraft Earth Server 🌍</p>
+
+    <a href="https://discord.gg/TVOJ_DISCORD_LINK"
+       class="btn"
+       target="_blank">💬 Join Discord</a>
 </header>
-
-<section>
-    <h2>Server info</h2>
-    <p><b>IP:</b> imperial-earth.mc</p>
-    <p><b>Verzija:</b> 1.20+</p>
-</section>
-
-<footer>
-    <p>© Imperial Earth</p>
-</footer>
 
 </body>
 </html>
